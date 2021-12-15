@@ -45,7 +45,8 @@ Space Complexity: <img src="https://latex.codecogs.com/svg.image?O(mn)=O(n^2)" t
 Hirschberg algorithm uses the idea of divide and conquer. For each recursion, we fill out the dynamic programming table <img src="https://latex.codecogs.com/svg.image?(i,j)" title="(i,j)" /> to <img src="https://latex.codecogs.com/svg.image?(i',j')" title="(i',j')" />, find the optimal row in the middle column, divide the problem into two subproblems and conquer them recursively.
 
 Time Complexity: 
-<img src="https://latex.codecogs.com/svg.image?O(area&plus;area/2&plus;area/4&plus;\cdots)&space;\le&space;O(2area)&space;=&space;O(2mn)=O(n^2)" title="O(area+area/2+area/4+\cdots) \le O(2area) = O(2mn)=O(n^2)" />
+<img src="https://latex.codecogs.com/svg.image?O(area&plus;area/2&plus;area/4&plus;\cdots)&space;\le&space;O(2area)&space;=&space;O(2mn)=O(n^2)" title="O(area+area/2+area/4+\cdots) \le O(2area) = O(2mn)=O(n^2)" /> 
+
 Same order but 2 times slower than the Needleman-Wunsch algorithm
 
 Space: <img src="https://latex.codecogs.com/svg.image?O(m)" title="O(m)" /> only store two related columns when calculating the prefix and suffix and only store the prefix column and suffix column when searching for <img src="https://latex.codecogs.com/svg.image?i^*" title="i^*" />.
