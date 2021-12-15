@@ -12,7 +12,11 @@
 <a name="abstract"></a>
 ## Abstract
 In this course project for CS466 Introduction to Bioinformatics, we implemented and analyzed the time complexity and space complexity of the linear space global alignment algorithm - Hirschberg algorithm, and made a comparison to the Needleman-Wunsch algorithm. 
-
+<pre xml:lang="latex">\sqrt{2}</pre>
+$'\sqrt{2}'$
+```math
+\sqrt{2}
+```
 <a name="global"></a>
 ## Global Alignment
 Given two strings <img src="https://latex.codecogs.com/svg.image?\boldsymbol{v}&space;\in&space;\Sigma^m" title="\boldsymbol{v} \in \Sigma^m" /> and <img src="https://latex.codecogs.com/svg.image?\boldsymbol{w}&space;\in&space;\Sigma^n" title="\boldsymbol{w} \in \Sigma^n" />, where <img src="https://latex.codecogs.com/svg.image?\Sigma" title="\Sigma" /> is the set of characters, a scoring function <img src="https://latex.codecogs.com/svg.image?\delta:(\Sigma&space;\cup&space;\{-\})\times(\Sigma&space;\cup&space;\{-\})&space;\rightarrow&space;\mathbb{R}" title="\delta:(\Sigma \cup \{-\})\times(\Sigma \cup \{-\}) \rightarrow \mathbb{R}" />, find alignment with maximum score.
