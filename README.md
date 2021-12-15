@@ -15,12 +15,12 @@ In this course project for CS466 Introduction to Bioinformatics, we implemented 
 
 <a name="global"></a>
 ## Global Alignment
-Given two strings <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{v} \in \Sigma^m"> and <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{w} \in \Sigma^n">, where <img src="https://render.githubusercontent.com/render/math?math=\Sigma"> is the set of characters, a scoring function <img src="https://render.githubusercontent.com/render/math?math=\delta:(\Sigma \cup \{-\})\times(\Sigma \cup \{-\}) \rightarrow \mathbb{R}">, find alignment with maximum score.
+Given two strings <img src="https://latex.codecogs.com/svg.image?\boldsymbol{v}&space;\in&space;\Sigma^m" title="\boldsymbol{v} \in \Sigma^m" /> and <img src="https://latex.codecogs.com/svg.image?\boldsymbol{w}&space;\in&space;\Sigma^n" title="\boldsymbol{w} \in \Sigma^n" />, where <img src="https://latex.codecogs.com/svg.image?\Sigma" title="\Sigma" /> is the set of characters, a scoring function <img src="https://latex.codecogs.com/svg.image?\delta:(\Sigma&space;\cup&space;\{-\})\times(\Sigma&space;\cup&space;\{-\})&space;\rightarrow&space;\mathbb{R}" title="\delta:(\Sigma \cup \{-\})\times(\Sigma \cup \{-\}) \rightarrow \mathbb{R}" />, find alignment with maximum score.
 
-An alignment <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{A}=[a_{i,j}]"> is a <img src="https://render.githubusercontent.com/render/math?math=2 \times k"> matrix s.t. 
-- <img src="https://render.githubusercontent.com/render/math?math=k = \{max(m,n),\cdots,m+n\}">
-- <img src="https://render.githubusercontent.com/render/math?math=a_{i,j} \in \Sigma \cup \{-\}">
-- there is no <img src="https://render.githubusercontent.com/render/math?math=j \in [k]"> where <img src="https://render.githubusercontent.com/render/math?math=a_{1,j}=a_{2,j}=-">
+An alignment <img src="https://latex.codecogs.com/svg.image?\boldsymbol{A}=[a_{i,j}]" title="\boldsymbol{A}=[a_{i,j}]" /> is a <img src="https://latex.codecogs.com/svg.image?2&space;\times&space;k" title="2 \times k" /> matrix s.t. 
+- <img src="https://latex.codecogs.com/svg.image?k&space;=&space;\{max(m,n),\cdots,m&plus;n\}" title="k = \{max(m,n),\cdots,m+n\}" />
+- <img src="https://latex.codecogs.com/svg.image?a_{i,j}&space;\in&space;\Sigma&space;\cup&space;\{-\}" title="a_{i,j} \in \Sigma \cup \{-\}" />
+- there is no <img src="https://latex.codecogs.com/svg.image?j&space;\in&space;[k]" title="j \in [k]" /> where <img src="https://latex.codecogs.com/svg.image?a_{1,j}=a_{2,j}=-" title="a_{1,j}=a_{2,j}=-" />
 
 <a name="needleman-wunsch"></a>
 ## Needleman-Wunsch
