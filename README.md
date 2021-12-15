@@ -1,8 +1,6 @@
 # CS466 Introduction to Bioinformatics Course Project - Analysis and Implementation of Hirschberg Algorithm
 
-## Contents  
-- [CS466 Introduction to Bioinformatics Course Project - Analysis and Implementation of Hirschberg Algorithm](#cs466-introduction-to-bioinformatics-course-project---analysis-and-implementation-of-hirschberg-algorithm)
-  - [Contents](#contents)
+## Contents
   - [Abstract](#abstract)
   - [Global Alignment](#global-alignment)
   - [Needleman-Wunsch](#needleman-wunsch)
