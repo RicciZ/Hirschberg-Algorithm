@@ -28,7 +28,8 @@ An alignment <img src="https://latex.codecogs.com/svg.image?\boldsymbol{A}=[a_{i
 
 Needleman-Wunsch algorithm uses dynamic programming approach converting the alignment problem to a bottom-up filling out dp table problem. 
 
-Time Complexity: <img src="https://latex.codecogs.com/svg.image?O(mn)=O(n^2)" title="O(mn)=O(n^2)" />
+Time Complexity: <img src="https://latex.codecogs.com/svg.image?O(mn)=O(n^2)" title="O(mn)=O(n^2)" /> 
+
 Space Complexity: <img src="https://latex.codecogs.com/svg.image?O(mn)=O(n^2)" title="O(mn)=O(n^2)" />
 
 <a name="hirschberg"></a>
@@ -36,7 +37,9 @@ Space Complexity: <img src="https://latex.codecogs.com/svg.image?O(mn)=O(n^2)" t
 ![](Hirschberg_pseudocode.png)
 
 <img src="https://latex.codecogs.com/svg.image?(i,j)" title="(i,j)" /> is the starting point and <img src="https://latex.codecogs.com/svg.image?(i',j')" title="(i',j')" /> is the ending point. 
-<img src="https://latex.codecogs.com/svg.image?v" title="v" /> and <img src="https://latex.codecogs.com/svg.image?w" title="w" /> are the input sequences. <img src="https://latex.codecogs.com/svg.image?\delta" title="\delta" /> is the scoring function.
+
+<img src="https://latex.codecogs.com/svg.image?v" title="v" /> and <img src="https://latex.codecogs.com/svg.image?w" title="w" /> are the input sequences. <img src="https://latex.codecogs.com/svg.image?\delta" title="\delta" /> is the scoring function. 
+
 <img src="https://latex.codecogs.com/svg.image?LAST\_COL" title="LAST\_COL" /> is a modified Needleman-Wunsch algorithm that returns the rightmost column of the dynamic programming table. 
 
 Hirschberg algorithm uses the idea of divide and conquer. For each recursion, we fill out the dynamic programming table <img src="https://latex.codecogs.com/svg.image?(i,j)" title="(i,j)" /> to <img src="https://latex.codecogs.com/svg.image?(i',j')" title="(i',j')" />, find the optimal row in the middle column, divide the problem into two subproblems and conquer them recursively.
