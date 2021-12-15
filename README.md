@@ -15,12 +15,12 @@ In this course project for CS466 Introduction to Bioinformatics, we implemented 
 
 <a name="global"></a>
 ## Global Alignment
-Given two strings $\boldsymbol{v} \in \Sigma^m$ and $\boldsymbol{w} \in \Sigma^n$, where $\Sigma$ is the set of characters, a scoring function $\delta:(\Sigma \cup \{-\})\times(\Sigma \cup \{-\}) \rightarrow \mathbb{R}$, find alignment with maximum score.
+Given two strings <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{v} \in \Sigma^m"> and <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{w} \in \Sigma^n">, where <img src="https://render.githubusercontent.com/render/math?math=\Sigma"> is the set of characters, a scoring function <img src="https://render.githubusercontent.com/render/math?math=\delta:(\Sigma \cup \{-\})\times(\Sigma \cup \{-\}) \rightarrow \mathbb{R}">, find alignment with maximum score.
 
-An alignment $\boldsymbol{A}=[a_{i,j}]$ is a $2 \times k$ matrix s.t. 
-- $k = \{max(m,n),\cdots,m+n\}$
-- $a_{i,j} \in \Sigma \cup \{-\}$
-- there is no $j \in [k]$ where $a_{1,j}=a_{2,j}=-$
+An alignment <img src="https://render.githubusercontent.com/render/math?math=\boldsymbol{A}=[a_{i,j}]"> is a <img src="https://render.githubusercontent.com/render/math?math=2 \times k"> matrix s.t. 
+- <img src="https://render.githubusercontent.com/render/math?math=k = \{max(m,n),\cdots,m+n\}">
+- <img src="https://render.githubusercontent.com/render/math?math=a_{i,j} \in \Sigma \cup \{-\}">
+- there is no <img src="https://render.githubusercontent.com/render/math?math=j \in [k]"> where <img src="https://render.githubusercontent.com/render/math?math=a_{1,j}=a_{2,j}=-">
 
 <a name="needleman-wunsch"></a>
 ## Needleman-Wunsch
